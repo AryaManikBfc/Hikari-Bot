@@ -9,7 +9,7 @@
   },
   "author": "Manik",
   "dependencies": {
-    "@adiwajshing/baileys": "git+https://github.com/adiwajshing/Baileys.git",
+    "@adiwajshing/baileys": "^3.5.3",
     "@vitalets/google-translate-api": "^7.0.0",
     "axios": "^0.21.1",
     "brainly-scraper": "^1.0.3",
