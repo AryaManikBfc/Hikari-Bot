@@ -1,7 +1,7 @@
 const { getBuffer, getGroupAdmins, getRandom, runtime, sleep } = require('./FuncBot/myfunc')
 const { WAConnection: _WAConnection, Browsers, MessageType } = require('@adiwajshing/baileys')
-const Client = require('./FuncBot/simple.js')
-const WAConnection = Client.WAConnection(_WAConnection)
+const simple = require('./FuncBot/simple.js')
+const WAConnection = simple.WAConnection(_WAConnection)
 const  { Functions } = require('./FuncBot/functions.js');
 const { color, bgcolor } = require('./FuncBot/color')
 const fs = require("fs-extra")
