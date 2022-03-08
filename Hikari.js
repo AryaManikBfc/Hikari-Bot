@@ -19,8 +19,8 @@ const {
 const {
         smsg
     } = require('./FuncBot/simple')
-const Client = require('./FuncBot/simple')
-const WAConnection = Client.WAConnection(_WAConnection)
+const simple = require('./FuncBot/simple')
+const WAConnection = simple.WAConnection(_WAConnection)
 const moment = require("moment-timezone")
 const speed = require('performance-now')
 const { spawn, exec, execSync } = require("child_process")
